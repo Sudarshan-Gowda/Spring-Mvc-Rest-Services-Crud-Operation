@@ -1,0 +1,31 @@
+Exposed Rest Services URL:
+
+# To fetch all the course details
+http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getCourseDetails
+
+# To fetch the course details by id
+http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getCourseById/1
+
+# To register the student (POST Method)
+http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/registerStudent
+{
+	"student": {
+		"stdFirstName":"Jennifer",
+		"stdLastName":"L",
+		"stdEmail": "Jennifer@gmail.com"
+	}
+}
+
+# To Opt/subscribe the Student Id with Course (POST Method)
+http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/optCourseByIdForStudent
+{
+	"stdId":"8",
+	"courseId":"1"
+}
+
+# To fetch all Course and Student details
+http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getAllCourseAndStdDetails
+
+# To remove or delete the Student from the course
+http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getAllCourseDetailsByStdId/1
+
