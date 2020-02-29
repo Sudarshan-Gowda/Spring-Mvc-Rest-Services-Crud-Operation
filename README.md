@@ -57,7 +57,7 @@ File -> Import -> Maven -> Existing Maven project
 	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getCourseDetails
 
 	b. To fetch the course details by id
-	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getCourseById/1
+	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getCourseById/{id}
 
 	c. To register the student (POST Method)
 	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/registerStudent
@@ -77,10 +77,14 @@ File -> Import -> Maven -> Existing Maven project
 	}
 
 	e. To fetch all Course and Student details
-	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getAllCourseAndStdDetails
+	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getAllCourseDetailsByStdId
 
-	f. To remove or delete the Student from the course
-	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getAllCourseDetailsByStdId/1
+	f. To remove or delete the Student from the course (POST Method)
+	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/deleteStudentOptCourseById
+	{
+		"stdId":"1",
+		"courseId":"2"
+	}
 	```
    
 ## User reference or guide.
