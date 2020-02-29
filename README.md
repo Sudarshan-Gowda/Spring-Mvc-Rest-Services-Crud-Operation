@@ -70,7 +70,7 @@ File -> Import -> Maven -> Existing Maven project
 	}
 
 	d. To Opt/subscribe the Student Id with Course (POST Method)
-	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/optCourseByIdForStudent
+	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/optCourseForStudentById
 	{
 		"stdId":"1",
 		"courseId":"1"
