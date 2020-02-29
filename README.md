@@ -52,36 +52,36 @@ File -> Import -> Maven -> Existing Maven project
 2) Once the application is deployed properly, Create schema and execute query into database. 
    For scripts reference use the link [scripts.sql](https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/resources/scripts.sql)
 3) Find the below exposed urls to test the application.
-	
-a. To fetch all the course details
-http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getCourseDetails
+	```	
+	a. To fetch all the course details
+	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getCourseDetails
 
-b. To fetch the course details by id
-http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getCourseById/1
+	b. To fetch the course details by id
+	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getCourseById/1
 
-c. To register the student (POST Method)
-http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/registerStudent
-{
-	"student": {
-		"stdFirstName":"Jennifer",
-		"stdLastName":"L",
-		"stdEmail": "Jennifer@gmail.com"
+	c. To register the student (POST Method)
+	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/registerStudent
+	{
+		"student": {
+			"stdFirstName":"Jennifer",
+			"stdLastName":"L",
+			"stdEmail": "Jennifer@gmail.com"
+		}
 	}
-}
 
-d. To Opt/subscribe the Student Id with Course (POST Method)
-http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/optCourseByIdForStudent
-{
-	"stdId":"1",
-	"courseId":"1"
-}
+	d. To Opt/subscribe the Student Id with Course (POST Method)
+	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/optCourseByIdForStudent
+	{
+		"stdId":"1",
+		"courseId":"1"
+	}
 
-e. To fetch all Course and Student details
-http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getAllCourseAndStdDetails
+	e. To fetch all Course and Student details
+	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getAllCourseAndStdDetails
 
-f. To remove or delete the Student from the course
-http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getAllCourseDetailsByStdId/1
-
+	f. To remove or delete the Student from the course
+	http://localhost:8090/Spring-Mvc-Rest-Services-Crud-Operation/getAllCourseDetailsByStdId/1
+	```
    
 ## User reference or guide.
   Application Landing Page: [click here](https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/docs/picture1.png)
