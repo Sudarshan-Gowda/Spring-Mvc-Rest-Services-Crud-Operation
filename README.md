@@ -13,14 +13,14 @@ You can then access Restfull here: https://github.com/Sudarshan-Gowda/Spring-Mvc
 
 
 ## In case you find a bug/suggested improvement for Spring Restfull Webservices
-Our issue tracker is available here: hhttps://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/issues
+Our issue tracker is available here: https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/issues
 
 
 ## Working with Rest in Eclipse
 
 ### prerequisites
 The following items should be installed in your system:
-* Toor - STS(Spring Toot Suite) or Eclipse
+* Tool - STS(Spring Toot Suite) or Eclipse
 * Server - Apache Tomcat 7
 * Database - MySQL
 * Postman
@@ -41,16 +41,21 @@ File -> Import -> Maven -> Existing Maven project
 
 |Spring Boot Configuration | Class or Java property files  |
 |--------------------------|---|
-|The Main Class | [RestController](https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/java/com/star/sud/controller/RestController.java) |
-|Properties Files | [application.properties](https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/resources/application.properties) |
-|Data Base Scripts Files | [scripts.sql](https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/resources/scripts.sql) |
-|Sample Json | [sample-json.txt](https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/resources/sample-json.txt) |
+|The Main Class | [RestController]
+(https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/java/com/star/sud/controller/RestController.java) |
+|Properties Files | [application.properties]
+(https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/resources/application.properties) |
+|Data Base Scripts Files | [scripts.sql]
+(https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/resources/scripts.sql) |
+|Sample Json | [sample-json.txt]
+(https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/resources/sample-json.txt) |
 
 ## Steps to test the application:
 
 1) Once the application is installed properly, Run the application
 2) Once the application is deployed properly, Create schema and execute query into database. 
-   For scripts reference use the link [scripts.sql](https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/resources/scripts.sql)
+   For scripts reference use the link [scripts.sql]
+   (https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/resources/scripts.sql)
 3) Find the below exposed urls to test the application.
 	```	
 	a. To fetch all the course details
@@ -88,9 +93,11 @@ File -> Import -> Maven -> Existing Maven project
 	```
    
 ## User reference or guide.
-  Application Landing Page: [click here](https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/docs/picture1.png)
+  Application Landing Page: [click here]
+  (https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/docs/picture1.png)
 
 # Contributing
 
-The [issue tracker](https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/issues) is the preferred channel for bug reports, features requests and submitting pull requests.
+The [issue tracker]
+(https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/issues) is the preferred channel for bug reports, features requests and submitting pull requests.
 
