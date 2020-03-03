@@ -1,7 +1,7 @@
 # Restfull Webservices For Crud Operation
 
 ## Topics Covered
-* This Example covers wriring simple & robust web services using HTTP Methods of GET & POST.
+* This Example covers autowriring simple & robust web services using HTTP Methods of GET & POST.
 * Also covers Many To Many Real time example with Annotation.
 * Experience towards loading properties from the configuration file at runtime.
 * Proper way of handling exception & also code clean & maintainance
