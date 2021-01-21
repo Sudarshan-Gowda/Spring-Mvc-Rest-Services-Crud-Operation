@@ -41,14 +41,10 @@ File -> Import -> Maven -> Existing Maven project
 
 |Spring Boot Configuration | Class or Java property files  |
 |--------------------------|---|
-|The Main Class | [RestController]
-(https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/java/com/star/sud/controller/RestController.java) |
-|Properties Files | [application.properties]
-(https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/resources/application.properties) |
-|Data Base Scripts Files | [scripts.sql]
-(https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/resources/scripts.sql) |
-|Sample Json | [sample-json.txt]
-(https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/resources/sample-json.txt) |
+|The Main Class | [RestController](https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/java/com/star/sud/controller/RestController.java) |
+|Properties Files | [application.properties](https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/resources/application.properties) |
+|Data Base Scripts Files | [scripts.sql](https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/resources/scripts.sql) |
+|Sample Json | [sample-json.txt](https://github.com/Sudarshan-Gowda/Spring-Mvc-Rest-Services-Crud-Operation/blob/master/src/main/resources/sample-json.txt) |
 
 ## Steps to test the application:
 
