@@ -1,4 +1,4 @@
-# Restfull Webservices For Crud Operation
+# Restfull Webservices with Crud Operation
 
 ## Topics Covered
 * This Example covers autowriring simple & robust web services using HTTP Methods of GET & POST.
@@ -20,7 +20,7 @@ Our issue tracker is available here: https://github.com/Sudarshan-Gowda/Spring-M
 
 ### prerequisites
 The following items should be installed in your system:
-* Tool - STS(Spring Toot Suite) or Eclipse
+* Tool - STS(Spring Toot Suite) or Eclipse or any of your favourite tool
 * Server - Apache Tomcat 7
 * Database - MySQL
 * Postman
