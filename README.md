@@ -18,7 +18,7 @@ Our issue tracker is available here: https://github.com/Sudarshan-Gowda/Spring-M
 
 ## Working with Rest in Eclipse
 
-### prerequisites
+### Prerequisites
 The following items should be installed in your system:
 * Tool - STS(Spring Toot Suite) or Eclipse or any of your favourite tool
 * Server - Apache Tomcat 7
